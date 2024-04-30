@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/igor/MIPT_CS_4SEM_PROJECT/Project/engine.py</OriginalElement>
+  <nodes>
+    <node x="188.5" y="346.0">_collections_abc.Callable</node>
+    <node x="46.020833333333314" y="588.0">engine.Vector2D</node>
+    <node x="756.5" y="346.0">_collections_abc.Iterable</node>
+    <node x="206.90416666666664" y="0.0">_collections_abc.Hashable</node>
+    <node x="349.5" y="277.0">engine.Scene</node>
+    <node x="579.5" y="300.0">engine.RigidBody</node>
+    <node x="10.5" y="311.5">engine.PlaneStatic2D</node>
+    <node x="521.5541666666668" y="519.0">engine.Sphere</node>
+    <node x="198.40416666666664" y="104.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="object" target="_collections_abc.Hashable">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="engine.PlaneStatic2D" target="object">
+      <point x="0.0" y="-61.5" />
+      <point x="89.5" y="257.0" />
+      <point x="260.65416666666664" y="257.0" />
+      <point x="-20.75" y="61.5" />
+    </edge>
+    <edge source="engine.Scene" target="object">
+      <point x="-5.6843418860808015E-14" y="-96.0" />
+      <point x="454.49999999999994" y="257.0" />
+      <point x="302.15416666666664" y="257.0" />
+      <point x="20.75" y="61.5" />
+    </edge>
+    <edge source="engine.Sphere" target="engine.RigidBody">
+      <point x="0.0" y="-107.5" />
+      <point x="641.0541666666668" y="494.0" />
+      <point x="658.0" y="494.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="engine.Sphere" target="_collections_abc.Callable">
+      <point x="-79.66666666666674" y="-107.5" />
+      <point x="561.3875" y="494.0" />
+      <point x="294.25" y="494.0" />
+      <point x="35.25" y="27.0" />
+    </edge>
+    <edge source="engine.Vector2D" target="_collections_abc.Callable">
+      <point x="31.75" y="-38.5" />
+      <point x="141.27083333333331" y="494.0" />
+      <point x="223.75" y="494.0" />
+      <point x="-35.25" y="27.0" />
+    </edge>
+    <edge source="engine.RigidBody" target="object">
+      <point x="0.0" y="-73.0" />
+      <point x="658.0" y="247.0" />
+      <point x="343.65416666666664" y="247.0" />
+      <point x="62.25" y="61.5" />
+    </edge>
+    <edge source="engine.Vector2D" target="object">
+      <point x="-31.75" y="-38.5" />
+      <point x="77.77083333333331" y="494.0" />
+      <point x="0.0" y="494.0" />
+      <point x="0.0" y="247.0" />
+      <point x="219.15416666666664" y="247.0" />
+      <point x="-62.25" y="61.5" />
+    </edge>
+    <edge source="engine.Sphere" target="_collections_abc.Iterable">
+      <point x="79.66666666666663" y="-107.5" />
+      <point x="720.7208333333333" y="494.0" />
+      <point x="826.5" y="494.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="448.5" y="367.0" />
+  <SelectedNodes>
+    <node>engine.Sphere</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+

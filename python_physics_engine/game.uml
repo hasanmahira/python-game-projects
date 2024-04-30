@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/igor/MIPT_CS_4SEM_PROJECT/Project/game.py</OriginalElement>
+  <nodes>
+    <node x="541.75" y="172.0">game.Rect</node>
+    <node x="0.0" y="81.0">_collections_abc.Callable</node>
+    <node x="296.75" y="172.0">game.World</node>
+    <node x="418.75" y="172.0">game.Game</node>
+    <node x="166.25" y="253.0">game.GScene</node>
+    <node x="395.75" y="0.0">_collections_abc.Hashable</node>
+    <node x="784.75" y="172.0">game.Frame</node>
+    <node x="654.75" y="172.0">game.Canvas</node>
+    <node x="167.75" y="172.0">engine.Scene</node>
+    <node x="44.75" y="172.0">game.Arrow</node>
+    <node x="436.25" y="81.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="object" target="_collections_abc.Hashable">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="game.World" target="object">
+      <point x="0.0" y="-15.5" />
+      <point x="347.75" y="152.0" />
+      <point x="460.5357142857143" y="152.0" />
+      <point x="-9.714285714285722" y="15.5" />
+    </edge>
+    <edge source="game.Arrow" target="_collections_abc.Callable">
+      <point x="-25.75" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="game.Canvas" target="object">
+      <point x="0.0" y="-15.5" />
+      <point x="709.75" y="142.0" />
+      <point x="489.67857142857144" y="142.0" />
+      <point x="19.428571428571445" y="15.5" />
+    </edge>
+    <edge source="engine.Scene" target="object">
+      <point x="0.0" y="-15.5" />
+      <point x="222.25" y="142.0" />
+      <point x="450.82142857142856" y="142.0" />
+      <point x="-19.428571428571445" y="15.5" />
+    </edge>
+    <edge source="game.Game" target="object">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="game.GScene" target="engine.Scene">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="game.Frame" target="object">
+      <point x="0.0" y="-15.5" />
+      <point x="837.25" y="132.0" />
+      <point x="499.39285714285717" y="132.0" />
+      <point x="29.142857142857167" y="15.5" />
+    </edge>
+    <edge source="game.Arrow" target="object">
+      <point x="25.75" y="-15.5" />
+      <point x="122.0" y="132.0" />
+      <point x="441.1071428571429" y="132.0" />
+      <point x="-29.14285714285711" y="15.5" />
+    </edge>
+    <edge source="game.Rect" target="object">
+      <point x="0.0" y="-15.5" />
+      <point x="588.25" y="152.0" />
+      <point x="479.9642857142857" y="152.0" />
+      <point x="9.714285714285722" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000004" x="445.00000000000006" y="142.0" />
+  <SelectedNodes>
+    <node>game.World</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+
